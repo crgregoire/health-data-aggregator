@@ -1,28 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Users />
-  </div>
+    <div id="app">
+        <img src="./assets/logo.png" alt="Vue Logo">
+        <Login />
+    </div>
 </template>
 
 <script>
-import Users from './components/Users.vue'
-
-export default {
-  name: 'app',
-  components: {
-    Users
-  }
-}
+    import Login from './components/Login.vue'
+    export default {
+        name: 'App',
+        components: {
+            Login
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    #app {
+        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        color: #2c3e50;
+    }
 </style>
